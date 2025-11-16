@@ -14,7 +14,7 @@ const MONGODB_URI = "mongodb+srv://ku07:0711@habit-tracker.3aisvoy.mongodb.net/?
 // Middleware
 app.use(
   cors({
-    origin: https://todo-frontend-3knv.onrender.com,
+    origin: "https://todo-frontend-3knv.onrender.com",
     credentials: true,
   }),
 )
