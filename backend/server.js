@@ -8,7 +8,8 @@ dotenv.config()
 
 const app = express()
 const PORT = process.env.PORT || 5000
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost:27017/todo-app"
+const MONGODB_URI = "mongodb+srv://ku07:0711@habit-tracker.3aisvoy.mongodb.net/?appName=habit-tracker";
+// Middleware
 
 // Middleware
 app.use(
